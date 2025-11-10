@@ -1,12 +1,17 @@
+/*CSS for whole page*/
 * {
     margin: 0;
     padding: 0;
 }
 
-.Page-Title{
+/*CSS for Navbar*/
+.Navbar{
+    text-align: center;
+    text-decoration: none;
+}
+
+/*CSS for Name-Title*/
+.Name-Title{
     text-align: center;
 }
 
-p{
-    text-align: center;
-}
