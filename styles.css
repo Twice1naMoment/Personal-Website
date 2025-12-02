@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+section {
+    size: 50px;
+}
+
 /*CSS for Navbar*/
 .Navbar{
     text-align: center;
