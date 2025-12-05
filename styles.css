@@ -1,4 +1,7 @@
 /* Base CSS */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -34,6 +37,7 @@
 .Nav-Links li a {
     text-decoration: none;
     transition: all 0.3s ease 0s;
+    font-family: "Libre Franklin", sans-serif;
 }
 
 /*Section CSS*/
@@ -46,6 +50,7 @@ section{
 /*Main-Page title CSS*/
 .Name-Title{
     text-align: center;
+    font-family: "Libre Franklin", sans-serif;
 }
 
 /*About-Me-Page title CSS*/
