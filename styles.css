@@ -2,15 +2,36 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Navbar CSS */
 .Navbar{
-    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.Navbar-Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
 .Nav-Links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.Nav-Links li {
+    cursor: pointer;
+}
+
+.Nav-Links li a {
     text-decoration: none;
+    transition: all 0.3s ease 0s;
 }
 
 /*Section CSS*/
