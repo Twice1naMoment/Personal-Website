@@ -9,6 +9,7 @@
 .Navbar{
     align-items: center;
     display: flex;
+    text-align: center;
 }
 
 .Navbar-Header{
@@ -27,6 +28,7 @@
 
 .Nav-Links li {
     cursor: pointer;
+    padding: 0px 20px;
 }
 
 .Nav-Links li a {
