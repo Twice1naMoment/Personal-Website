@@ -50,24 +50,28 @@ section{
 /*Main-Page title CSS*/
 .Name-Title{
     text-align: center;
+    font-weight: bold;
     font-family: "Libre Franklin", sans-serif;
 }
 
 /*About-Me-Page title CSS*/
 .About-Me-Title{
     text-align: center;
+    font-weight: bold;
     font-family: "Libre Franklin", sans-serif;
 }
 
 /*Projects-Page title CSS*/
 .Projects-Page-Title{
     text-align: center;
+    font-weight: bold;
     font-family: "Libre Franklin", sans-serif;
 }
 
 /*Articles-Page title CSS*/
 .Articles-Page-Title{
     text-align: center;
+    font-weight: bold;
     font-family: "Libre Franklin", sans-serif;
 }
 
