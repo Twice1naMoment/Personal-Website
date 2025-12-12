@@ -20,6 +20,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    text-align: center;
 }
 
 .Nav-Links {
@@ -38,6 +39,7 @@
     text-decoration: none;
     transition: all 0.3s ease 0s;
     font-family: "Libre Franklin", sans-serif;
+    text-align: center;
 }
 
 /*Section CSS*/
