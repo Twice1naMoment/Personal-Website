@@ -8,6 +8,22 @@
     box-sizing: border-box;
 }
 
+/*Colourscheme*/
+:root {
+    --primary-colour: #0a0a0a;
+    --secondary-colour: #1a1a1a;
+    --accent-colour: #00d9ff;
+    --text-colour: #ffffff;
+    --text-secondary-colour: #b0b0b0;
+    --font-main: "Libre Franklin", sans-serif;
+    --transition-speed: 0.3s;
+}
+
+/*For page scrolling*/
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navbar CSS */
 .Navbar{
     align-items: center;
