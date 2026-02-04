@@ -22,6 +22,10 @@
 /*For page scrolling*/
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: auto;
+    min-height: 100vh;
 }
 
 /*Css for page body*/
@@ -30,7 +34,11 @@ body {
     background-color: var(--primary-colour);
     color: var(--text-colour);
     line-height: 1.6;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: auto;
+    overflow: visible;
+    min-height: 100vh;
 }
 
 /* Navbar CSS */
