@@ -88,42 +88,33 @@ body {
 
 /*Section CSS*/
 section{
-    padding: 0;
-    margin: 0;
     min-height: 100vh;
+    padding: 6rem 2rem 4rem;
+    position: relative;
 }
 
-/*Main-Page title CSS*/
-.Name-Title{
-    text-align: center;
-    font-weight: bold;
-    font-family: "Libre Franklin", sans-serif;
+/*Css for main page section*/
+.Main-Page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, var(--primary-colour) 0%, #1a1a1a 100%);
+    position: relative;
+    overflow: hidden;
 }
 
-/*About-Me-Page title CSS*/
-.About-Me-Title{
-    text-align: center;
-    font-weight: bold;
-    font-family: "Libre Franklin", sans-serif;
+.Main-Page::before {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--accent-colour) 0%, transparent 70%);
+    top: 10%;
+    right: 10%;
+    opacity: 0.1;
+    animation: float 20s infinite ease-in-out();
 }
-
-/*Projects-Page title CSS*/
-.Projects-Page-Title{
-    text-align: center;
-    font-weight: bold;
-    font-family: "Libre Franklin", sans-serif;
-}
-
-/*Articles-Page title CSS*/
-.Blog-Page-Title{
-    text-align: center;
-    font-weight: bold;
-    font-family: "Libre Franklin", sans-serif;
-}
-
-
-
-
-
-
-
