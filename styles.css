@@ -35,42 +35,55 @@ body {
 
 /* Navbar CSS */
 .Navbar{
-    align-items: center;
-    display: flex;
-    position: fixed;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    gap: 2rem;
-    padding: 1rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .Navbar-Header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(10, 10, 10, 0.95);
+    z-index: 1000;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .Nav-Links {
-    margin: 0;
-    padding: 0;
-    list-style: none;
     display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 3rem;
 }
 
-.Nav-Links li {
-    cursor: pointer;
-    padding: 0px 20px;
-}
-
-.Nav-Links li a {
+.Nav-Links a {
+    color: var(--text-colour);
     text-decoration: none;
-    transition: all 0.3s ease 0s;
-    font-family: "Libre Franklin", sans-serif;
-    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+    position: relative;
+    padding: 0.5rem 0;
+    transition: color var(--transition-speed);
+}
+
+.Nav-Links a:hover{
+    color: var(--accent-colour);
+}
+
+.Nav-Links a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--accent-colour);
+    transition: width var(--transition-speed);
+}
+
+.Nav-Links a:hover::after {
+    width: 100%;
 }
 
 /*Section CSS*/
