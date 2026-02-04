@@ -138,4 +138,31 @@ section{
     z-index: 1;
 }
 
+/*Css for image containers*/
+.Image1-Container {
+    width: min(400px, 90vw);
+    height: min(400px, 90vw);
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--secondary-colour) 0%, #2a2a2a 100%);
+    border: 3px solid rgba(0, 217, 255, 0.3);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 217, 255, 0.2);
+    margin-top: 2rem;
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+}
 
+.Image1-Container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 25px 80px rgba(0, 217, 255, 0.3);
+}
+
+.Image1-Container::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--text-secondary-colour);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
