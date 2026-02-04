@@ -24,6 +24,15 @@ html {
     scroll-behavior: smooth;
 }
 
+/*Css for page body*/
+body {
+    font-family: var(--font-main);
+    background-color: var(--primary-colour);
+    color: var(--text-colour);
+    line-height: 1.6;
+    overflow: hidden;
+}
+
 /* Navbar CSS */
 .Navbar{
     align-items: center;
