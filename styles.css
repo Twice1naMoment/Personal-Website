@@ -28,6 +28,23 @@ html {
     min-height: 100vh;
 }
 
+/*Css for scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--secondary-colour);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent-colour);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00b8d9;
+}
 /*Css for page body*/
 body {
     font-family: var(--font-main);
@@ -202,3 +219,7 @@ section h1::after {
     border-radius: 2px;
 }
 
+/*Css for About Me page*/
+.About-Me-Title {
+
+}
