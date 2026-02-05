@@ -45,6 +45,7 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: #00b8d9;
 }
+
 /*Css for page body*/
 body {
     font-family: var(--font-main);
@@ -219,7 +220,18 @@ section h1::after {
     border-radius: 2px;
 }
 
-/*Css for About Me page*/
-.About-Me-Title {
-
+/*Animations*/
+@keyframes float {
+    0%, 100% {
+	transform: translateY(0) translateX(0);
+    }
+    25% {
+	transform: translateY(-20px) translateX(20px);
+    }
+    50% {
+	transform: translateY(20px) translateX(-20px);
+    }
+    75% {
+	transform: translateY(-10px) translateX(-10px);
+    }
 }
